@@ -89,14 +89,14 @@ main {
 
 .bg-1 {
   height: 814px;
-  background-image: url(https://github.com/ChristianChilatra/FASTER---LeonidasEsteban.com/blob/master/img/background.png);
+  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/background.png);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
 .img-mobile {
-  background-image: url(https://github.com/ChristianChilatra/FASTER---LeonidasEsteban.com/blob/master//img/section-mobile.png);
+  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/section-mobile.png);
   background-size: cover;
   width: 400px;
   height: 763px;
@@ -119,7 +119,7 @@ main {
 
 .bg-3 {
   height: 775px;
-  background-image: url(https://github.com/ChristianChilatra/FASTER---LeonidasEsteban.com/blob/master//img/background-3.png);
+  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/background-3.png);
   background-size: cover;
   background-position: bottom;
 }
