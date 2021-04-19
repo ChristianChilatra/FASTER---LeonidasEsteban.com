@@ -22,12 +22,14 @@ body {
   color: black;
   font-size: 48px;
   font-weight: 800;
+  margin: 72px auto auto auto;
 }
 
 .title-h2-white {
   color: white;
   font-size: 48px;
   font-weight: 800;
+  margin: 72px auto auto auto;
 }
 
 p {
@@ -66,7 +68,7 @@ header {
 }
 
 .container-nav ul li:hover {
-  box-shadow: 0px 45px 0 -8px white;
+  box-shadow: 0px 40px 0 -8px white;
 }
 
 .container-nav h1 {
@@ -89,14 +91,14 @@ main {
 
 .bg-1 {
   height: 814px;
-  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/background.png);
+  background-image: url(/img/background.png);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
 .img-mobile {
-  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/section-mobile.png);
+  background-image: url(/img/section-mobile.png);
   background-size: cover;
   width: 400px;
   height: 763px;
@@ -119,7 +121,7 @@ main {
 
 .bg-3 {
   height: 775px;
-  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/background-3.png);
+  background-image: url(/img/background-3.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -154,14 +156,15 @@ main {
 }
 
 .content-main {
-  max-width: 685px;
-  margin: 0 10% 0 50%;
+  max-width: auto;
+  margin: 0 0 0 34.4%;
   height: auto;
 }
 
 .first-title {
+  max-width: 685px;
   padding-left: 30px;
-  margin: 0 0 0 auto;
+  margin: 0 auto 0 0;
 }
 
 .content-main input {
@@ -190,8 +193,8 @@ main {
 }
 
 .container-trademarks {
-  margin-top: 254px;
-  margin-bottom: 128px;
+  margin-top: 25%;
+  margin-bottom: 10%;
   max-width: 563px;
   height: auto;
   display: flex;
@@ -203,8 +206,15 @@ main {
   width: 130px;
 }
 
+.image-article {
+  width: auto;
+  height: auto;
+}
+
 .image-article img {
-  max-width: 100%;
+  display: block;
+  margin: auto 20px auto auto;
+  width: 100%;
   height: auto;
 }
 
@@ -214,7 +224,7 @@ main {
 
 .content-1 {
   max-width: 611px;
-  margin: 64px 0 0 auto;
+  margin: auto auto 0 0;
 }
 
 .container-mobile-2 {
@@ -222,7 +232,7 @@ main {
 }
 
 .content-2 {
-  margin: 331px 0 0 auto;
+  margin: 331px auto 0 0;
   max-width: 458px;
   height: 221px;
 }
@@ -232,18 +242,18 @@ main {
 }
 
 .content-3 {
-  margin: 554px 0 0 auto;
+  margin: 554px auto 0 0;
   max-width: 458px;
   height: 221px;
 }
 
 .content-3 hr {
-  width: auto;
-  height: 40px;
   background-color: #E8E8E8;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
   position: absolute;
+  width: 64vw;
+  height: 40px;
   border: none;
   margin: 60px auto 64px auto;
 }
@@ -260,7 +270,7 @@ main {
 }
 
 .content-4 {
-  margin: 652px 0 0 auto;
+  margin: 652px auto 0 0;
   max-width: 446px;
   height: 221px;
 }
@@ -417,4 +427,3 @@ footer {
   font-size: 18px;
   font-weight: 700;
 }
-
