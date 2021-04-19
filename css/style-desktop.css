@@ -1,0 +1,420 @@
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.title-h1-white {
+  color: white;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.title-h1-black {
+  color: black;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.title-h2-black {
+  color: black;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.title-h2-white {
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+p {
+  color: grey;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+header {
+  background-color: black;
+  color: white;
+  width: auto;
+  height: 38px;
+  padding: 24px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.container-nav {
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-nav ul {
+  width: 447px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 7px 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.container-nav ul li:hover {
+  box-shadow: 0px 45px 0 -8px white;
+}
+
+.container-nav h1 {
+  margin: 0;
+  cursor: pointer;
+}
+
+.container-nav input {
+  height: 38px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+main {
+  position: relative;
+}
+
+.bg-1 {
+  height: 814px;
+  background-image: url(/img/background.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.img-mobile {
+  background-image: url(/img/section-mobile.png);
+  background-size: cover;
+  width: 400px;
+  height: 763px;
+  position: absolute;
+  top: 124px;
+  left: 40px;
+}
+
+.url-video iframe {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  border-radius: 8px;
+}
+
+.bg-2 {
+  height: 1150px;
+  position: relative;
+}
+
+.bg-3 {
+  height: 775px;
+  background-image: url(/img/background-3.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bg-4 {
+  height: 775px;
+  background-color: black;
+}
+
+.bg-5 {
+  height: 1056px;
+}
+
+.bg-6 {
+  background-color: #ECEEF1;
+  height: 956px;
+}
+
+.bg-7 {
+  height: 676px;
+  background-color: black;
+}
+
+.wrapper-main {
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 207px 20px 0 40px;
+}
+
+.content-main {
+  max-width: 685px;
+  margin: 0 10% 0 50%;
+  height: auto;
+}
+
+.first-title {
+  padding-left: 30px;
+  margin: 0 0 0 auto;
+}
+
+.content-main input {
+  cursor: pointer;
+  width: 260px;
+  height: 52px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+  display: block;
+  margin: 48px 0 24px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content-main a {
+  user-select: none;
+  color: grey;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-mobile {
+  display: none;
+}
+
+.container-trademarks {
+  margin-top: 254px;
+  margin-bottom: 128px;
+  max-width: 563px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container-trademarks img {
+  width: 130px;
+}
+
+.image-article img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-article-mobile img {
+  display: none;
+}
+
+.content-1 {
+  max-width: 611px;
+  margin: 64px 0 0 auto;
+}
+
+.container-mobile-2 {
+  display: none;
+}
+
+.content-2 {
+  margin: 331px 0 0 auto;
+  max-width: 458px;
+  height: 221px;
+}
+
+.container-mobile-3 {
+  display: none;
+}
+
+.content-3 {
+  margin: 554px 0 0 auto;
+  max-width: 458px;
+  height: 221px;
+}
+
+.content-3 hr {
+  width: 100vw;
+  height: 40px;
+  background-color: #E8E8E8;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  position: absolute;
+  border: none;
+  margin: 60px auto 64px auto;
+}
+
+.content-3 .green {
+  width: 30%;
+  height: 40px;
+  background-color: #2FB464;
+  border-radius: 100px;
+}
+
+.container-mobile-4 {
+  display: none;
+}
+
+.content-4 {
+  margin: 652px 0 0 auto;
+  max-width: 446px;
+  height: 221px;
+}
+
+.img-profile-mobile {
+  display: none;
+}
+
+.content-4 .img-profile {
+  display: block;
+}
+
+.content-4 .img-profile img {
+  display: block;
+  margin: auto;
+}
+
+.img-container-4 {
+  display: none;
+}
+
+.users {
+  position: relative;
+  height: auto;
+}
+
+.users .wrapper-users {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 0 200px 0;
+}
+
+.users .wrapper-users h1 {
+  margin: 128px 0 131px 0
+}
+
+.content-users {
+  max-width: 1346px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-users div {
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px;
+  margin: 0 20px;
+  width: 30%;
+}
+
+.content-users div img {
+  position: relative;
+  top: -50px;
+}
+
+.lastesd-profile {
+  display: none;
+}
+
+.commentary {
+  overflow: hidden;
+  color: black;
+  height: 200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.name-user {
+  /* margin-top: 150px; */
+  font-weight: 700;
+  color: black;
+}
+
+.content-singup {
+  background-color: white;
+  position: relative;
+  margin: auto;
+  bottom: -110px;
+  max-width: 876px;
+  height: 333px;
+  border-radius: 8px;
+  display: flex;
+  z-index: 1;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.1);
+}
+
+.singup {
+  margin: auto;
+  max-width: 812px;
+  height: 205px;
+  text-align: center;
+}
+
+.content-singup .singup h1 {
+  margin: 0;
+}
+
+.content-singup input {
+  cursor: pointer;
+  height: 52px;
+  min-width: 256px;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  position: relative;
+}
+
+.wrapper-footer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 300px 20px 128px 64px;
+}
+
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1282px;
+}
+
+.div-social {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  margin-right: 16px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+
+.div-social img {
+  margin: 9.5px;
+}
+
+.content-footer h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content-footer h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+

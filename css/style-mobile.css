@@ -1,0 +1,237 @@
+@import url(/css/style-desktop.css);
+@media screen and (max-width: 1000px) {
+  .title-h1-white {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .title-h1-black {
+    color: black;
+    font-size: 45px;
+    font-weight: 00;
+  }
+  .title-h2-black {
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .title-h2-white {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  p {
+    color: grey;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .container-nav ul {
+    display: none;
+  }
+  .container-input input {
+    display: none;
+  }
+  .container-input {
+    background-image: url(/icon/icon-menu.png);
+    background-size: cover;
+    width: 30px;
+    height: 24px;
+    margin: 7px 0;
+  }
+  .bg-1 {
+    height: 659px;
+  }
+  .img-mobile {
+    display: none;
+  }
+  .url-video iframe {
+    top: 71px;
+    left: 30px;
+    width: 201px;
+    height: 355px;
+  }
+  .bg-2 {
+    height: 754px;
+  }
+  .bg-3 {
+    height: 1200px;
+    background-image: url(/img/background-3.png);
+    background-size: auto;
+    background-position: left;
+  }
+  .bg-3-1 {
+    height: 822px;
+    background-image: url(/img/background-3.png);
+    background-size: cover;
+    background-position: right;
+  }
+  .bg-4 {
+    height: 1000px;
+  }
+  .bg-5 {
+    height: 654px;
+  }
+  .bg-6 {
+    height: 2669px;
+  }
+  .bg-7 {
+    height: 1016px;
+    background-color: black;
+  }
+  .wrapper-main {
+    padding: 35px 20px 0 20px;
+  }
+  .content-main {
+    max-width: 600px;
+    margin: auto;
+  }
+  .first-title {
+    padding: 0;
+    margin: 0;
+  }
+  .content-main input {
+    margin: 24px 0 24px 0;
+  }
+  .container-mobile {
+    width: 264px;
+    height: 503px;
+    display: block;
+    width: 264px;
+    height: 503px;
+    position: relative;
+    margin: 57px auto 24px auto;
+  }
+  .container-trademarks {
+    margin: auto auto 64px auto;
+    max-width: 146px;
+  }
+  .container-trademarks img {
+    margin-bottom: 24px;
+  }
+  .container-trademarks img[alt="mark-vogue"] {
+    margin-bottom: 0;
+  }
+  .image-article {
+    display: none;
+  }
+  .image-article-mobile img {
+    position: relative;
+    display: flex;
+    max-width: 100%;
+  }
+  .content-1 {
+    max-width: 611px;
+    margin: 64px 0 64px auto;
+  }
+  .container-mobile-2 {
+    width: 264px;
+    height: 563px;
+    display: block;
+    margin: auto;
+  }
+  .content-2 {
+    margin: 64px 0 0 auto;
+    max-width: 611px;
+  }
+  .container-mobile-3 {
+    width: 264px;
+    height: 563px;
+    display: block;
+    margin: auto;
+  }
+  .content-3 {
+    margin: 150px 0 144px auto;
+    max-width: 611px;
+  }
+  .content-3 hr {
+    width: 100vw;
+    height: 40px;
+    background-color: #E8E8E8;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    position: absolute;
+    border: none;
+    margin: 60px auto 64px auto;
+  }
+  .content-3 .green {
+    width: 50%;
+    height: 40px;
+    background-color: #2FB464;
+    border-radius: 100px;
+  }
+  .container-mobile-4 {
+    width: 264px;
+    height: 563px;
+    display: block;
+    margin: auto;
+  }
+  .content-4 {
+    margin: 64px 0 0 auto;
+    max-width: 611px;
+    height: 221px;
+  }
+  .content-4 .img-profile {
+    display: none;
+  }
+  .img-profile-mobile {
+    display: block;
+  }
+  .img-profile-mobile img {
+    display: block;
+    margin: auto;
+  }
+  .users {
+    height: 2669px;
+  }
+  .users .wrapper-users {
+    padding: 0 0 0 0;
+  }
+  .users .wrapper-users h1 {
+    margin: 80px 0 131px 0
+  }
+  .content-users {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .content-users div {
+    margin: 0 20px 131px 20px;
+    width: 100%;
+  }
+  .lastesd-profile {
+    display: block;
+  }
+  .commentary {
+    overflow: hidden;
+    color: black;
+    height: 200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  .content-singup {
+    margin: 0 20px 0 20px;
+    bottom: 150px;
+    max-width: 876px;
+    height: 250px;
+  }
+  .singup {
+    height: 160px;
+  }
+  .wrapper-footer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 200px 20px 0 64px;
+  }
+  .content-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .container-footer {
+    width: 976px;
+    margin-top: 64px;
+  }
+}
