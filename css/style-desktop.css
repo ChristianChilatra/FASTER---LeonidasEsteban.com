@@ -91,14 +91,14 @@ main {
 
 .bg-1 {
   height: 814px;
-  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/background.png);
+  background-image: url(/img/background.png);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
 .img-mobile {
-  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/section-mobile.png);
+  background-image: url(/img/section-mobile.png);
   background-size: cover;
   width: 400px;
   height: 763px;
@@ -121,7 +121,7 @@ main {
 
 .bg-3 {
   height: 775px;
-  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/background-3.png);
+  background-image: url(/img/background-3.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -163,8 +163,11 @@ main {
 
 .first-title {
   max-width: 685px;
-  padding-left: 30px;
+  padding-left: 35px;
   margin: 0 auto 0 0;
+}
+.first-title h1{
+  height: 216px;
 }
 
 .content-main input {
@@ -247,19 +250,29 @@ main {
   height: 221px;
 }
 
-.content-3 hr {
+.container-hr {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.container-hr hr {
   background-color: #E8E8E8;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
-  position: absolute;
-  width: 64vw;
-  height: 40px;
   border: none;
-  margin: 60px auto 64px auto;
+  position: relative;
+  top: 350px;
+  width: 60%;
+  height: 40px;
+  margin: 0 0 0 auto;
 }
 
-.content-3 .green {
-  width: 30%;
+.container-hr .green {
+  position: absolute;
+  top: 350px;
+  margin: 0 36%;
+  width: 40%;
   height: 40px;
   background-color: #2FB464;
   border-radius: 100px;
