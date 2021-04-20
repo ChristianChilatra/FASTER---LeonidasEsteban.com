@@ -1,4 +1,4 @@
-@import url(/css/style-desktop.css);
+@import url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/css/style-desktop.css);
 @media screen and (max-width: 1050px) {
   .title-h1-white {
     color: white;
@@ -32,7 +32,7 @@
     display: none;
   }
   .container-input {
-    background-image: url(/icon/icon-menu.png);
+    background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/icon/icon-menu.png);
     background-size: cover;
     width: 30px;
     height: 24px;
@@ -69,7 +69,7 @@
     margin: 24px 0 24px 0;
   }
   .img-mobile {
-    background-image: url(/img/section-mobile.png);
+    background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/section-mobile.png);
     background-size: cover;
     width: 264px;
     height: 503px;
@@ -116,7 +116,7 @@
   }
   .bg-3 {
     height: 767px;
-    background-image: url(/img/background-3.png);
+    background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/background-3.png);
     background-size: cover;
     background-position: left;
   }
