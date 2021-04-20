@@ -22,19 +22,17 @@ body {
   color: black;
   font-size: 48px;
   font-weight: 800;
-  margin: 72px auto auto auto;
 }
 
 .title-h2-white {
   color: white;
   font-size: 48px;
   font-weight: 800;
-  margin: 72px auto auto auto;
 }
 
 p {
   color: grey;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -91,14 +89,26 @@ main {
 
 .bg-1 {
   height: 814px;
-  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com//img/background.png);
+  background-image: url(/img/background.png);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
+.wrapper-bg-1 {
+  max-width: 683px;
+  max-height: 397px;
+  padding: 207px 15.5% 210px 34.4%;
+  margin: auto;
+}
+
+.content-bg-1 {
+  width: 100%;
+  height: 100%;
+}
+
 .img-mobile {
-  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com//img/section-mobile.png);
+  background-image: url(/img/section-mobile.png);
   background-size: cover;
   width: 400px;
   height: 763px;
@@ -114,63 +124,19 @@ main {
   border-radius: 8px;
 }
 
-.bg-2 {
-  height: 1150px;
-  position: relative;
-}
-
-.bg-3 {
-  height: 775px;
-  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com//img/background-3.png);
-  background-size: cover;
-  background-position: bottom;
-}
-
-.bg-4 {
-  height: 775px;
-  background-color: black;
-}
-
-.bg-5 {
-  height: 1056px;
-}
-
-.bg-6 {
-  background-color: #ECEEF1;
-  height: 956px;
-}
-
-.bg-7 {
-  height: 676px;
-  background-color: black;
-}
-
-.wrapper-main {
-  height: auto;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 207px 20px 0 40px;
-}
-
-.content-main {
-  max-width: auto;
-  margin: 0 0 0 34.4%;
-  height: auto;
-}
-
 .first-title {
-  max-width: 685px;
-  padding-left: 35px;
-  margin: 0 auto 0 0;
-}
-.first-title h1{
-  height: 216px;
+  margin: auto;
 }
 
-.content-main input {
+.first-title h1 {
+  margin: 0;
+}
+
+.first-title p {
+  margin: 24px 0 24px 0;
+}
+
+.content-bg-1 input {
   cursor: pointer;
   width: 260px;
   height: 52px;
@@ -184,7 +150,7 @@ main {
   font-weight: 700;
 }
 
-.content-main a {
+.content-bg-1 a {
   user-select: none;
   color: grey;
   font-weight: 400;
@@ -195,18 +161,25 @@ main {
   display: none;
 }
 
+.bg-2 {
+  height: 1150px;
+  position: relative;
+}
+
+.wrapper-bg-2 {
+  max-width: 874px;
+  max-height: 982px;
+  padding: 44px 1.5% 124px 34.4%;
+  margin: auto;
+}
+
 .container-trademarks {
-  margin-top: 25%;
-  margin-bottom: 10%;
+  margin-bottom: 13%;
   max-width: 563px;
   height: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.container-trademarks img {
-  width: 130px;
 }
 
 .image-article {
@@ -230,30 +203,78 @@ main {
   margin: auto auto 0 0;
 }
 
+.content-1 h2 {
+  margin: 73px 0 0 0;
+}
+
+.content-1 p {
+  margin-bottom: 0;
+}
+
+.content-bg-3-mobile {
+  display: none;
+}
+
+.bg-3 {
+  height: 767px;
+  background-image: url(/img/background-3.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.wrapper-bg-3 {
+  max-width: 457px;
+  max-height: 211px;
+  padding: 207px 32.1% 347px 34.4%;
+  margin: auto;
+}
+
+.container-mobile-1 {
+  display: none;
+}
+
+.content-bg-3 h2 {
+  margin: 0;
+}
+
+.content-bg-3 p {
+  margin-bottom: 0;
+}
+
 .container-mobile-2 {
   display: none;
 }
 
-.content-2 {
-  margin: 331px auto 0 0;
-  max-width: 458px;
-  height: 221px;
+.bg-4 {
+  height: 767px;
+  background-color: black;
+}
+
+.wrapper-bg-4 {
+  max-width: 457px;
+  max-height: 211px;
+  padding: 207px 32.1% 347px 34.4%;
+  margin: auto;
+}
+
+.content-bg-4 h2 {
+  margin: 0;
+}
+
+.content-bg-4 p {
+  margin-bottom: 0;
 }
 
 .container-mobile-3 {
   display: none;
 }
 
-.content-3 {
-  margin: 535px auto 0 0;
-  max-width: 458px;
-  height: 221px;
-}
-
 .container-hr {
-  width: auto;
-  height: auto;
-  position: relative;
+  position: absolute;
+  width: 65.6%;
+  height: 40px;
+  right: 0;
+  margin-top: 60px;
 }
 
 .container-hr hr {
@@ -261,48 +282,56 @@ main {
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
   border: none;
-  position: relative;
-  top: 350px;
-  width: 60%;
+  position: absolute;
+  top: 0;
+  width: 100%;
   height: 40px;
   margin: 0 0 0 auto;
 }
 
 .container-hr .green {
   position: absolute;
-  top: 350px;
-  margin: 0 36%;
-  width: 40%;
+  margin: 0 auto 0 0;
+  width: 51%;
   height: 40px;
   background-color: #2FB464;
   border-radius: 100px;
 }
 
+.bg-5 {
+  height: 1056px;
+}
+
+.wrapper-bg-5 {
+  max-width: 476px;
+  max-height: 656px;
+  padding: 200px 32.1% 200px 33%;
+  margin: auto;
+}
+
+.content-bg-5 h2 {
+  margin: 0;
+}
+
+.content-bg-5 p {
+  margin-bottom: 0;
+}
+
 .container-mobile-4 {
   display: none;
 }
-
-.content-4 {
-  margin: 652px auto 0 0;
-  max-width: 446px;
-  height: 221px;
+.img-profile img{
+  display: block;
+  margin: 0 auto 64px 0;
 }
 
 .img-profile-mobile {
   display: none;
 }
 
-.content-4 .img-profile {
-  display: block;
-}
-
-.content-4 .img-profile img {
-  display: block;
-  margin: auto;
-}
-
-.img-container-4 {
-  display: none;
+.bg-6 {
+  background-color: #ECEEF1;
+  height: 956px;
 }
 
 .users {
@@ -312,15 +341,15 @@ main {
 
 .users .wrapper-users {
   text-align: center;
-  position: absolute;
+  /* position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  padding: 0 0 200px 0;
+  right: 0; */
+  padding: 128px 1.5px 200px 1.5px;
 }
 
 .users .wrapper-users h1 {
-  margin: 128px 0 131px 0
+  margin: 0 0 131px 0;
 }
 
 .content-users {
@@ -336,6 +365,7 @@ main {
   border-radius: 8px;
   margin: 0 20px;
   width: 30%;
+  height: 439px;
 }
 
 .content-users div img {
@@ -363,10 +393,12 @@ main {
 
 .content-singup {
   background-color: white;
-  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
   margin: auto;
-  bottom: -110px;
-  max-width: 876px;
+  bottom: -220px;
+  width: 64.2%;
   height: 333px;
   border-radius: 8px;
   display: flex;
@@ -400,6 +432,11 @@ footer {
   position: relative;
 }
 
+.bg-7 {
+  height: 676px;
+  background-color: black;
+}
+
 .wrapper-footer {
   position: absolute;
   top: 0;
@@ -411,7 +448,8 @@ footer {
 .content-footer {
   display: flex;
   justify-content: space-between;
-  max-width: 1282px;
+  width: 95.7%;
+  height: 248px;
 }
 
 .div-social {
