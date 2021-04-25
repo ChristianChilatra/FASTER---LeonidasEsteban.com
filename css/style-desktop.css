@@ -89,7 +89,7 @@ main {
 
 .background-1 {
   height: 814px;
-  background-image: url(https://christianchilatra.github.io/FASTER---LeonidasEsteban.com/img/background.png);
+  background-image: url(/img/background.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -97,7 +97,7 @@ main {
 
 .wrapper-background-1 {
   max-width: 683px;
-  max-height: 397px;
+  height: 397px;
   padding: 207px 15.5% 210px 34.4%;
   margin: auto;
 }
@@ -164,7 +164,7 @@ main {
 
 .wrapper-background-2 {
   max-width: 874px;
-  max-height: 982px;
+  height: 982px;
   padding: 44px 1.5% 124px 34.4%;
   margin: auto;
 }
