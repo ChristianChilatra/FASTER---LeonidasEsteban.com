@@ -145,11 +145,11 @@
   }
   .container-hr {
     position: absolute;
-    width: 74%;
+    width: 88%;
     margin: 40px auto 64px auto;
   }
   .container-hr .green {
-    width: 40%;
+    width: 60%;
   }
   .container-mobile-3 {
     display: block;
@@ -198,12 +198,15 @@
     margin: auto;
   }
   .content-singup {
+    width: 320px;
+    margin: auto;
     bottom: -100px;
     height: 188px;
   }
   .singup {
     max-width: 100%;
     height: auto;
+    margin: 24px 32px 24px 32px;
   }
   .content-singup input {
     width: 100%;
