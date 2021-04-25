@@ -69,13 +69,13 @@
     height: 856px;
   }
   .wrapper-background-2 {
-    padding: 0;
     width: 100%;
     height: auto;
+    padding: 275px 0 0 0;
     position: relative;
   }
   .container-trademarks {
-    margin: 275px auto 64px auto;
+    margin: auto auto 64px auto;
     width: 146px;
     height: auto;
     justify-content: space-around;
