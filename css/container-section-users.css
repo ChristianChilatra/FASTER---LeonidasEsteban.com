@@ -1,0 +1,69 @@
+.containerUsers {
+  padding: 5rem 1.25rem 12.5rem 1.25rem;
+  background-color: #ECEEF1;
+}
+
+.containerUsers h2 {
+  font: var(--headline5);
+  color: var(--black);
+  margin: 0 auto 8.1875rem auto;
+  text-align: center;
+}
+
+.containerUsers p:nth-of-type(1) {
+  font: var(--body1-regular);
+  color: var(--black);
+  text-align: center;
+  margin: 0;
+}
+
+.containerUsers p:nth-of-type(2) {
+  font: var(--body1-bold);
+  color: var(--black);
+  text-align: center;
+  margin: 0.625rem auto 0.25rem auto;
+}
+
+.containerUsers p:nth-of-type(3) {
+  font: var(--body1-regular);
+  color: var(--black);
+  text-align: center;
+  margin: 0;
+}
+
+.containerUsers .containerComment {
+  background: white;
+  border-radius: 0.5rem;
+  margin-block-start: 5rem;
+  padding: 0 2rem 2rem 2rem;
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "img" "img" "." "." ".";
+}
+
+.containerUsers .containerComment img {
+  place-self: center;
+  grid-area: img;
+  position: relative;
+  inset-block-start: -50%;
+}
+
+@media screen and (min-width: 750px) {
+
+  .containerUsers .wrapperComment {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .containerUsers .containerComment {
+    flex: 1;
+  }
+  .containerUsers .containerComment:nth-of-type(4) {
+    display: none;
+  }
+  .containerUsers h2 {
+    font: var(--headline2);
+  }
+  .containerUsers .containerComment p {
+    margin-block-end: 3rem;
+  }
+}

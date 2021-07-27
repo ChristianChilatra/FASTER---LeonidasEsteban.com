@@ -1,0 +1,53 @@
+@import url(container-sing.css);
+@import url(container-marks.css);
+@import url(container-section-1.css);
+@import url(container-section-2.css);
+@import url(container-section-3.css);
+@import url(container-section-4.css);
+.wrapperMain {
+  block-size: auto;
+  position: relative;
+}
+
+.wrapperMain .containerMobile {
+  inline-size: 100%;
+  block-size: 31.453125rem;
+  position: absolute;
+  inset-block-start: 10%;
+  background: transparent;
+}
+
+.wrapperMain .containerMobile .mobile {
+  display: block;
+  margin: auto;
+}
+
+.wrapperMain .imgUser {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+@media screen and (min-width: 750px) {
+  .wrapperMain .containerMobile {
+    position: absolute;
+    inline-size: 40%;
+    block-size: auto;
+    inset-block-start: 7.75rem;
+    inset-block-end: 0;
+    z-index: 1;
+  }
+  .wrapperMain .containerMobile .mobile {
+    position: sticky;
+    inset-block-start: 0;
+    inline-size: 100%;
+    max-inline-size: 25rem;
+    block-size: auto;
+  }
+  .wrapperMain .imgUser {
+    inline-size: 100%;
+    max-inline-size: 54.75rem;
+    block-size: auto;
+    margin: auto auto 25.5625rem 40%;
+  }
+}
