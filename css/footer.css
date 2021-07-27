@@ -1,0 +1,77 @@
+@import url(container-sing-footer.css);
+footer {
+  background-color: var(--black);
+  position: relative;
+  block-size: 63.5rem;
+}
+
+.containerContact {
+  margin: 0 auto 4rem 1.25rem;
+}
+
+.containerContact h2 {
+  color: var(--white);
+  font: var(--headline5);
+  margin: 0;
+}
+
+.containerContact p {
+  font: var(--caption);
+  color: var(--grey);
+  margin: 0 auto 1.75rem auto;
+}
+
+.containerContact .containerMedia {
+  display: flex;
+  block-size: 2.25rem;
+  gap: 1rem;
+}
+
+.containerContact .containerIcon {
+  background: white;
+  inline-size: 2.25rem;
+  block-size: 2.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.containerContact .containerMedia img {
+  inline-size: 1rem;
+  block-size: 1rem;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 5rem 1.25rem;
+}
+
+.services h2 {
+  font: var(--button);
+  color: var(--white);
+}
+
+.services a {
+  text-decoration: none;
+  font: var(--body1-regular);
+  color: var(--grey);
+  outline: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 750px) {
+  footer {
+    block-size: 42.25rem;
+  }
+  .containerFooter {
+    display: flex;
+  }
+  .containerContact {
+    margin: 0 8rem 4rem 1.25rem;
+  }
+  .services {
+    margin: 0 8rem 5rem 1.25rem;
+  }
+}

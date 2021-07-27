@@ -1,0 +1,42 @@
+.containerSection-2 {
+  background-image: url(../img/background-3.png);
+  background-size: cover;
+  background-position: -51%;
+  padding: 0 1.25rem 8.671875rem 1.25rem;
+}
+
+.containerSection-2 h2 {
+  font: var(--headline5);
+  color: var(--black);
+  margin: 0 auto 1rem auto;
+}
+
+.containerSection-2 p {
+  font: var(--body2-regular);
+  color: var(--black);
+  margin: 0 auto 3.98rem auto;
+}
+
+.containerSection-2 img {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (min-width: 750px) {
+  .containerSection-2 {
+    background-size: cover;
+    background-position: 100% 100%;
+    padding: 12.9375rem 1.25rem 21.6875rem 40%;
+  }
+  .containerSection-2 h2 {
+    font: var(--headline2);
+    margin: 0 48% 1.5rem auto;
+  }
+  .containerSection-2 p {
+    font: var(--body1-regular);
+    margin: 0 50% auto auto;
+  }
+  .containerSection-2 img {
+    display: none;
+  }
+}

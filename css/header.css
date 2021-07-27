@@ -1,0 +1,75 @@
+@import url(nav.css);
+.wrapperHeader {
+  background: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem;
+  block-size: 2.25rem;
+}
+
+.wrapperHeader h1 {
+  color: var(--white);
+  font: var(--headline5);
+}
+
+.wrapperHeader .buttonSing {
+  display: none;
+}
+
+.wrapperHeader .buttonMenu {
+  background: transparent;
+  border: 0;
+  inline-size: 1.8rem;
+  block-size: 1.5rem;
+  padding: 0;
+  outline: none;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.wrapperHeader input[type="checkbox"] {
+  display: none;
+}
+
+.wrapperHeader input[type="checkbox"]:checked~.buttonMenu {
+  background: black;
+}
+
+.wrapperHeader input[type="checkbox"]:checked~nav .containerNav {
+  visibility: visible;
+}
+
+.wrapperHeader .buttonMenu img {
+  inline-size: auto;
+  block-size: auto;
+}
+
+@media screen and (min-width: 750px) {
+  .wrapperHeader .buttonMenu {
+    display: none;
+  }
+  .wrapperHeader .buttonSing button {
+    display: block;
+    background-color: var(--white);
+    inline-size: auto;
+    block-size: auto;
+    padding: 0.3125rem 1rem;
+    font: var(--button);
+    color: var(--black);
+    display: block;
+    border: 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .wrapperHeader .buttonSing{
+    display: block;
+    text-decoration: none;
+  }
+  }
